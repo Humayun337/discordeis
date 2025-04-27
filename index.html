@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Discord Chat</title>
+    <link rel="stylesheet" href="link.css">
+</head>
+<body>
+    <div class="server-bar">
+        <div class="server">🎮</div>
+        <div class="server">💬</div>
+        <div class="server">🎵</div>
+    </div>
+
+    <div class="main">
+        <div class="channel-bar">
+            <h2># general</h2>
+        </div>
+        
+        <div class="chat-box" id="chat-box">
+            <!-- Messages will appear here -->
+        </div>
+
+        <div class="message-bar">
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <input type="text" id="message-input" placeholder="Send file...">
+<input type="file" id="file-input">
+<button onclick="sendMessage()">Send</button>
+
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="link.js"></script>
+</body>
+</html>
